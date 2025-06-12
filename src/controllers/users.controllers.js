@@ -46,6 +46,8 @@ export const deleteUsuario = async (req, res) => {
     //return res.sendStatus(2004)
 //}; 
 
+//pruebas//
+
 export const updateUsuario = async (req, res) => {
     const { id } = req.params
     const data = req.body;

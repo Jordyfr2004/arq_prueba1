@@ -34,18 +34,6 @@ export const deleteUsuario = async (req, res) => {
     return res.sendStatus(204);
 };
 
-
-//export const deleteUsuario = async(req, res) => {
-    //const { id } = req.params
-    //const {rowCount} = await pool.query('DELETE FROM usuarios WHERE id = $1',[id]);
-
-    //if (rowCount === 0) {
-     //   return res.status(404).json({message: "usuario no encontrado"});
-    //}
-
-    //return res.sendStatus(2004)
-//}; 
-
 //pruebas//
 
 export const updateUsuario = async (req, res) => {
